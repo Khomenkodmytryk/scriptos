@@ -1,0 +1,7 @@
+#!/bin/bash
+for file in ./*.txt
+do
+cp $file ./$1
+done
+
+
